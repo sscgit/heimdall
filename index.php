@@ -37,6 +37,9 @@ $whats = 2;  // Else the user typed the wrong password. (HACKER?!)
 
 }
 }
+if($_SESSION['username'] != "") {
+$whats = 1;
+}
 ?>
 <html>
   <head>

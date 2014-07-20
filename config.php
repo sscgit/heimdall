@@ -1,29 +1,21 @@
 <?php
-/*
- * Raspberry Remote
- * http://xkonni.github.com/raspberry-remote/
- *
- * configuration for the webinterface
- *
- */
 
-/*
- * define ip address and port here
- */
+$uselogin = "false"; // Auf True stellen, wenn es verwendet werden soll.
+
 $source = $_SERVER['SERVER_ADDR'];
-$target = '192.168.43.222';
+$target = '192.168.43.222'; // IP-Adresse des Pi's
 $port = 11337;
 
 /*
- * specify configuration of sockets to use
- *   array("group", "plug", "description");
- * use empty string to create empty box
- *   ""
+ * Hier kannst du deine Schalter definieren.
+ * array("Hauscode", "Nummer", "beschreibung"  
+ * Nummer: A = 01; B = 02; C = 03;
+ * Hauscode: Oben = 1; Unten: 0; z.B. 01010  
  *
  */
 $config=array(
-  array("00010", "02", "LED Streifen"),
-  array("00010", "01", "5.1 Anlage"),
-  array("00010", "03", "Bettlampe"),
+  array("00010", "02", "Gerät1"),
+  array("00010", "01", "Gerät2"),
+  array("00010", "03", "Gerät3"),
 )
 ?>

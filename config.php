@@ -11,7 +11,7 @@
  * define ip address and port here
  */
 $source = $_SERVER['SERVER_ADDR'];
-$target = '192.168.43.222';
+$target = shell_exec("hostname -I");
 $port = 11337;
 
 /*

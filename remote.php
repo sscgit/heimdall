@@ -23,13 +23,13 @@ if (strlen($output) >= 8) {
 <html>
   <head>
     <title>SmartControl</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/style.css">
 <!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="ie.css" />
 <![endif]-->
 	<link rel="icon"
           type="image/png"
-          href="favicon.ico">
+          href="resources/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">

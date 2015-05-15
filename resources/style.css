@@ -50,6 +50,30 @@ font-family: ostrich;
 font-size: 64px;
 border-bottom: 2px solid white;
 }
+
+#navigation ul li {
+	list-style: none;
+	float: left;
+        box-shadow: 0 0 14px #FFFFFF;
+        margin-right: 3%;
+        position: relative;
+        width: 22%;
+        height: auto;
+        background-color: #dbdbdb;
+        margin-bottom: 15px;
+        font-size: 24px;
+}
+
+#navigation ul li a {
+	padding: 10px 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-family: trench;
+	color: #000;
+	font-weight: bold;
+}
+
 .entry {
 	box-shadow: 0 0 14px #FFFFFF;
 	margin-left: 3%;
